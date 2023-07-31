@@ -1,0 +1,56 @@
+.btn {
+  &.inactive {
+    background-color: rgba($primary, .1);
+    color: rgba($primary, .75);
+    border-color: transparent;
+
+    &:hover {
+      background-color: rgba($primary, .2);
+      color: $primary;
+    }
+  }
+
+  .ex-icon {
+    margin-top: -3px; // vertically center
+  }
+
+  &.btn-outline-light {
+    color: inherit;
+  }
+
+  &.btn-muted {
+    background-color: #E6F5F7;
+    color: #38B2C3;
+  }
+
+  &.disabled {
+    cursor: not-allowed;
+  }
+}
+
+button {
+  &.disabled {
+    cursor: not-allowed;
+  }
+}
+
+.ex-button-select {
+  .btn {
+    position: relative;
+
+    .ex-icon {
+      display: block;
+      position: absolute;
+      top: calc(50% - 28px);
+      right: 1rem;
+      width: 3.5rem;
+      height: 3.5rem;
+      margin-top: 0;
+      color: $primary;
+    }
+
+    &.btn-primary .ex-icon {
+      color: $white;
+    }
+  }
+}

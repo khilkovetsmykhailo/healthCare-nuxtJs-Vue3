@@ -1,0 +1,45 @@
+{
+  "prod": {
+    "API_URL": "https://api.Demohealth.com",
+    "AUTH_CALLBACK_URL": "https://app.Demohealth.com/auth/callback",
+    "AWS_COGNITO_CLIENT_ID": "9amnm5oabhtomarsp31h76fht",
+    "AWS_COGNITO_DOMAIN": "Demohealth",
+    "AWS_COGNITO_REGION": "us-east-1",
+    "AWS_COGNITO_USER_POOL_ID": "us-east-1_P4sFc5Gyp",
+    "APP_LINK_IOS": "https://apps.apple.com/us/app/Demo-health/id1415086076",
+    "APP_LINK_ANDROID": "https://play.google.com/apps/com.Demohealth.Demohealthapp"
+  },
+  "beta": {
+    "API_URL": "https://api.Demohealth.com",
+    "AUTH_CALLBACK_URL": "https://beta.app.Demohealth.com/auth/callback",
+    "AWS_COGNITO_CLIENT_ID": "9amnm5oabhtomarsp31h76fht",
+    "AWS_COGNITO_DOMAIN": "Demohealth",
+    "AWS_COGNITO_REGION": "us-east-1",
+    "AWS_COGNITO_USER_POOL_ID": "us-east-1_P4sFc5Gyp",
+    "ENVIRONMENT": "Beta Environment",
+    "APP_LINK_IOS": "https://apps.apple.com/us/app/Demo-health/id1415086076",
+    "APP_LINK_ANDROID": "https://play.google.com/apps/testing/com.Demohealth.Demohealthapp"
+  },
+  "stg": {
+    "API_URL": "https://stg.api.Demohealth.com",
+    "AUTH_CALLBACK_URL": "https://stg.app.Demohealth.com/auth/callback",
+    "AWS_COGNITO_CLIENT_ID": "taum76vklhmgpdh758j09v6ai",
+    "AWS_COGNITO_DOMAIN": "Demohealth-stg",
+    "AWS_COGNITO_REGION": "us-east-1",
+    "AWS_COGNITO_USER_POOL_ID": "us-east-1_CGDryhw4l",
+    "ENVIRONMENT": "Staging Environment",
+    "APP_LINK_IOS": "https://testflight.apple.com/join/xTDnvnmp",
+    "APP_LINK_ANDROID": "https://play.google.com/apps/internaltest/4699283116426204155"
+  },
+  "dev": {
+    "API_URL": "http://localhost:5000",
+    "AUTH_CALLBACK_URL": "http://localhost:3000/auth/callback",
+    "AWS_COGNITO_CLIENT_ID": "taum76vklhmgpdh758j09v6ai",
+    "AWS_COGNITO_DOMAIN": "Demohealth-stg",
+    "AWS_COGNITO_REGION": "us-east-1",
+    "AWS_COGNITO_USER_POOL_ID": "us-east-1_CGDryhw4l",
+    "ENVIRONMENT": "Development Environment",
+    "APP_LINK_IOS": "https://testflight.apple.com/join/xTDnvnmp",
+    "APP_LINK_ANDROID": "https://play.google.com/apps/internaltest/4699283116426204155"
+  }
+}

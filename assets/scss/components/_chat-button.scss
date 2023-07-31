@@ -1,0 +1,10 @@
+.ex-chat-button {
+  position: relative;
+}
+
+.ex-chat-button-notification {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: $danger;
+}

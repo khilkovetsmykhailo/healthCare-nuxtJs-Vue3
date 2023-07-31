@@ -1,0 +1,10 @@
+.activity-list-item-name-col {
+  flex-shrink: 1;
+}
+
+.activity-list-item-name {
+  width: 100%;
+  padding-right: .5rem;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+}

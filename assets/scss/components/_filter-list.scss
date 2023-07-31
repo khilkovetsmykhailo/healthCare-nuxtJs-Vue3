@@ -1,0 +1,17 @@
+.ex-filter-list-item {
+  color: $gray-500;
+  font-size: 1.375rem;
+  font-weight: bold;
+
+  &.active {
+    color: $primary;
+  }
+
+  &:first-child {
+    padding-left: 0;
+  }
+
+  &:last-child {
+    padding-right: 0;
+  }
+}

@@ -1,0 +1,86 @@
+.ex-list-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  &:not(.flat) {
+    padding: .75rem .85rem;
+    box-shadow: 0 0 20px rgba(#E4E7E8, .75);
+    border-radius: 1rem;
+  }
+
+  &.no-card {
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  &.disabled {
+    color: $gray-500;
+    cursor: not-allowed;
+
+    * {
+      color: $gray-500;
+    }
+  }
+
+  &:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+
+  .ex-avatar {
+    margin-right: .75rem;
+  }
+
+  .ex-li-patient-stats {
+    color: $gray-500;
+  }
+
+  .ex-li-patient-stats-sep {
+    margin: 0 .25rem;
+  }
+}
+
+.ex-list-item-text {
+  font-size: 1rem;
+}
+
+.ex-list-item-action {
+  margin-left: auto;
+}
+
+button.ex-list-item {
+  display: flex;
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+}
+
+button.ex-list-item:not(.disabled):not(.flat),
+a.ex-list-item:not(.disabled):not(.flat) {
+  cursor: pointer;
+
+  &:not(.no-hover) {
+    border: 2px solid transparent;
+    transition: all ease .2s;
+
+    &:hover {
+      border-color: $Demo-header-blue;
+    }
+  }
+
+  &.active {
+    border-color: $Demo-header-blue;
+  }
+
+  &:focus {
+    box-shadow: 0 0 15px rgba($Demo-alt-blue, .5);
+    outline: none;
+  }
+
+  &:hover {
+    &:before {
+      background-color: rgba($primary, .5);
+    }
+  }
+}

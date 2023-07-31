@@ -1,0 +1,29 @@
+.ex-accordion.ex-list-item {
+  display: block;
+  padding: 0;
+  border-radius: 16px;
+  border-left: none;
+}
+
+.ex-accordion-container {
+  display: block;
+}
+
+.ex-accordion-header {
+  padding: 1.25rem 1.5rem;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+
+  .ex-accordion.open & {
+    background-color: #E9F7F8;
+  }
+}
+
+.ex-accordion-toggle {
+  flex-grow: 0;
+  padding-right: 0;
+}
+
+.ex-accordion-content {
+  padding: 1.25rem 1.5rem;
+}

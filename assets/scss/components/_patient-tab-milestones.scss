@@ -1,0 +1,13 @@
+.ex-milestone-status {
+  &.complete {
+    color: $success;
+  }
+
+  &.pending {
+    color: $gray-500;
+  }
+
+  &.skipped {
+    color: $gray-600;
+  }
+}

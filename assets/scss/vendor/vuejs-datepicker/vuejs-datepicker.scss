@@ -1,0 +1,13 @@
+.ex-datepicker {
+  .vdp-datepicker__calendar {
+    @include make-row;
+
+    > header {
+      flex-basis: 100%;
+    }
+
+    > span.cell {
+      width: initial;
+    }
+  }
+}

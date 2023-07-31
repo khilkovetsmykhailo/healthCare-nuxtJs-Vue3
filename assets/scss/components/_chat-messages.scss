@@ -1,0 +1,66 @@
+.ex-chat-messages-container {
+  max-height: 50vh;
+  max-height: 600px;
+  overflow-y: auto;
+}
+
+.ex-message-timestamp {
+  flex-grow: 0;
+  flex-shrink: 1;
+}
+
+.ex-message {
+  margin-bottom: 1rem;
+}
+
+.ex-message-content {
+  flex-grow: 1;
+  border-radius: 24px;
+  padding: 1rem;
+
+  .ex-message.received & {
+    border-bottom-left-radius: 0;
+    background-color: #F2F6F8;
+  }
+
+  .ex-message.sent & {
+    border-bottom-right-radius: 0;
+    background-color: #E6F6F7;
+  }
+}
+
+.ex-message-container {
+  flex-wrap: nowrap;
+  margin-bottom: .5rem;
+}
+
+.ex-message-group-timestamp {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #7D8CB0;
+}
+
+.ex-message-timestamp {
+  color: #7D8CB0;
+  margin-right: .5rem;
+}
+
+.ex-chat-new-message {
+  flex-wrap: nowrap;
+  padding-top: 1rem;
+
+  .ex-chat-new-message-button-container {
+    flex-grow: 1;
+    width: 2.5rem !important; // preserve width
+  }
+}
+
+.ex-chat-messages-no-more,
+.ex-chat-messages-no-messages {
+  text-align: center;
+  color: #7D8CB0;
+}
+
+.ex-chat-messages-loading-indicator {
+  color: #A3D5DD;
+}

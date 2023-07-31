@@ -1,0 +1,18 @@
+.ex-add-patent-step-surgery-type-button {
+  position: relative;
+
+  .ex-icon {
+    display: block;
+    position: absolute;
+    top: calc(50% - 28px);
+    right: 1rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-top: 0;
+    color: $primary;
+  }
+
+  &.btn-primary .ex-icon {
+    color: $white;
+  }
+}

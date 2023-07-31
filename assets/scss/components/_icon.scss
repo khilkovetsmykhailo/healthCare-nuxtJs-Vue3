@@ -1,0 +1,20 @@
+.ex-icon {
+  display: block;
+  width: 1em;
+  height: 1em;
+
+  &.inline {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  &.large {
+    font-size: 1.5rem;
+  }
+
+  svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+}

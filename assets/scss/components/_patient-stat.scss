@@ -1,0 +1,15 @@
+.ex-patient-stat-level {
+  margin-right: .125rem;
+
+  .level-okay & {
+    color: $Demo-blue;
+  }
+
+  .level-bad & {
+    color: $warning;
+  }
+}
+
+.ex-patient-stat-description {
+  color: $gray-500;
+}

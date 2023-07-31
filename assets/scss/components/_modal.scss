@@ -1,0 +1,30 @@
+.ex-modal-header {
+  padding: 1.5rem 2rem 1.5rem;
+  background-color: $Demo-light-blue;
+
+  &.danger {
+    background-color: #FCE8E8;
+  }
+}
+
+.bg-Demo-light-blue {
+  background-color: $Demo-light-blue;
+}
+
+.ex-modal-header-title {
+  font-size: 1.75rem;
+  margin-bottom: .5rem
+}
+
+.ex-modal-header-description {
+  font-size: 1.2rem;
+  margin-bottom: 0;
+}
+
+.ex-modal-content {
+  padding: 1.5rem 2rem 1.5rem;
+}
+
+.modal-body {
+  padding: 0;
+}

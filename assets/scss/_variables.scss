@@ -1,0 +1,55 @@
+/**
+ * Integrates with bootstrap/scss/_variables
+ * Tailored for Demo needs.
+ */
+
+// Color system
+$Demo-blue: #40A8BB;
+$Demo-light-blue: #E7F5F7;
+$Demo-alt-blue: #56B4E6;
+$Demo-header-blue: #339EB2;
+
+$primary: $Demo-blue;
+$warning: #F19B8F;
+$light: #e9ecef;
+
+// Grid
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1200px
+);
+
+// shadows
+$box-shadow-sm: 0 4px 36px rgba(0, 0, 0, 0.1);
+$box-shadow: 0 4px 36px rgba(0, 0, 0, 0.15);
+$box-shadow-lg: 0 4px 36px rgba(0, 0, 0, 0.25);
+
+// Typography
+$font-family-sans-serif: 'Roboto', sans-serif;
+$text-muted: #a1a1a1;
+
+// Buttons
+$input-btn-padding-y: .5rem;
+$input-btn-padding-x: 1rem;
+
+$input-btn-padding-y-sm: .375rem;
+$input-btn-padding-x-sm: .75rem;
+
+$input-btn-padding-y-lg: .75rem;
+$input-btn-padding-x-lg: 1.5rem;
+
+// Inputs
+$input-bg: #F4F7F9;
+$input-border-width: 0;
+$input-border-radius: .5rem;
+
+// Card
+$card-border-width: 0;
+
+// Modal
+$modal-content-border-width: 0;
+$modal-backdrop-bg: #C4C4C4;
+$modal-backdrop-opacity: .75;
+$modal-lg: 50rem;

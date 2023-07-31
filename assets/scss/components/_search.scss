@@ -1,0 +1,23 @@
+.ex-search {
+  position: relative;
+
+  .ex-icon {
+    position: absolute;
+    left: .75rem;
+    top: calc(50% - .625rem);
+    width: 1.25rem;
+    height: 1.25rem;
+
+    svg {
+      width: 1.25rem;
+      height: 1.25rem;
+      vertical-align: initial;
+      color: #9A9CA1;
+    }
+  }
+
+  .form-control {
+    padding-left: 2.5rem;
+    font-size: inherit;
+  }
+}

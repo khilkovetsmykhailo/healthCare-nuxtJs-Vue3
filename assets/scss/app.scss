@@ -1,0 +1,83 @@
+/**
+ * App entry point for all styles.
+ */
+// Init
+@import 'variables';
+@import 'mixins';
+// Vendor
+@import 'vendor/bootstrap/bootstrap';
+@import 'vendor/vuejs-datepicker/vuejs-datepicker';
+// Typography
+@import 'type';
+// Components
+@import 'components/accordion';
+@import 'components/activity-list-item';
+@import 'components/activity-search';
+@import 'components/add-patient';
+@import 'components/add-patient-step-patient-age';
+@import 'components/add-patient-step-patient-surgery-type';
+@import 'components/avatar';
+@import 'components/aws-image';
+@import 'components/bar-graph';
+@import 'components/block-button';
+@import 'components/button';
+@import 'components/card';
+@import 'components/chat-button';
+@import 'components/chat-messages';
+@import 'components/datepicker';
+@import 'components/dropdown';
+@import 'components/empty-state';
+@import 'components/filter-list';
+@import 'components/form';
+@import 'components/form-input';
+@import 'components/graph-key';
+@import 'components/icon';
+@import 'components/icon-button';
+@import 'components/label';
+@import 'components/list-item';
+@import 'components/loading-placeholder';
+@import 'components/modal';
+@import 'components/organization';
+@import 'components/patient';
+@import 'components/patient-note';
+@import 'components/patient-stat';
+@import 'components/patient-tab-milestones';
+@import 'components/recovery-plan';
+@import 'components/search';
+@import 'components/search-field';
+@import 'components/survey-item';
+@import 'components/tabs';
+@import 'components/team';
+
+// Transitions
+@import 'transitions';
+
+@import 'common';
+
+.test {
+  border: 2px solid red;
+}
+
+.card-button {
+  transition: all ease .2s;
+  border-bottom: 2px solid $primary !important;
+
+  &:hover {
+    cursor: pointer;
+    box-shadow: 0 .25rem 2rem rgba(#000, .10);
+    border-bottom: 4px solid $primary !important;
+    transition: all ease .2s;
+  }
+}
+
+.centered-image {
+  position: relative;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  transform: translateX(-50%);
+}
+
+.disabled-opacity {
+  opacity: .5;
+}

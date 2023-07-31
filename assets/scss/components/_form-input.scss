@@ -1,0 +1,23 @@
+input.form-control {
+  &.large {
+    font-size: 1.25rem;
+  }
+}
+
+.form-input-unit-container {
+  position: relative;
+
+  .unit {
+    position: absolute;
+    top: 50%;
+    right: 1rem;
+    transform: translateY(-50%);
+
+    .btn {
+      min-width: initial !important;
+      width: 4.5rem !important;
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+.ex-datepicker {
+  .vdp-datepicker__calendar {
+    width: 100%;
+    margin: 0 auto;
+    border: 0;
+
+    .cell {
+      width: 14.2857142857%; // 100% divided by 7 columns
+      margin-bottom: .25rem;
+
+      &.day-header {
+        height: 3rem;
+        padding-bottom: 1rem;
+        border-bottom: 1px solid #F3F4F4;
+      }
+
+      &.day {
+        position: relative;
+        border-radius: 100px;
+
+        &.selected {
+          color: $white;
+          background-color: $primary;
+        }
+      }
+
+      &:not(.blank):not(.disabled).day:hover {
+        border-color: $primary;
+      }
+    }
+  }
+}

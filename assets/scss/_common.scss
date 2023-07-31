@@ -1,0 +1,16 @@
+.ex-pipe-divider {
+  position: relative;
+  left: -1px;
+  border-left: 2px solid $gray-400;
+}
+
+.ex-site-title {
+  a {
+    color: inherit;
+    text-decoration: none;
+
+    &:hover {
+      color: $link-color;
+    }
+  }
+}

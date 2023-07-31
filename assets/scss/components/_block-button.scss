@@ -1,0 +1,33 @@
+.ex-block-button {
+  display: block;
+  width: 100%;
+  padding: .75rem;
+  background-color: #fff;
+  border: 2px solid transparent;
+  border-radius: .875rem;
+  box-shadow: $box-shadow-sm;
+  text-align: left;
+  transition: border-color 300ms;
+
+  &:focus {
+    box-shadow: 0 0 15px rgba($Demo-alt-blue, .5);
+    outline: none;
+  }
+
+  &:hover,
+  &.active {
+    border-color: $primary;
+    transition: border-color 150ms;
+  }
+
+  &.disabled {
+    color: $gray-500;
+    cursor: not-allowed;
+  }
+}
+
+.ex-block-button-text {
+  display: block;
+  margin-top: .75rem;
+  font-size: 1rem;
+}

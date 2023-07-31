@@ -1,0 +1,50 @@
+.ex-new-user {
+  .modal-body {
+    padding: 0;
+  }
+
+  .btn:not(.btn-link) {
+    min-width: 26.5rem;
+  }
+}
+
+.ex-new-user-step-header-current-step {
+  position: relative;
+  font-size: 1.2rem;
+  margin-bottom: 1.25rem;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: calc(100% + .375rem);
+    height: .375rem;
+    width: 2.25rem;
+    border-radius: 100px;
+    background-color: $primary;
+  }
+}
+
+.ex-new-user-step-content {
+  padding: 0 2.5rem;
+  margin: 2.5rem 0;
+
+  .btn {
+    font-size: 1.2rem;
+    padding-top: .8rem;
+    padding-bottom: 1rem;
+    border-width: 2px;
+
+    &.btn-link {
+      font-size: 1.25rem;
+    }
+  }
+}
+
+.ex-new-user-step-next-step-container {
+  margin-top: 4rem;
+}
+
+.ex-new-user-step-next-step {
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+}

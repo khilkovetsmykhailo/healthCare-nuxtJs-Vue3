@@ -1,0 +1,26 @@
+.ex-graph-key {
+  display: inline-block;
+  color: $gray-500;
+}
+
+.ex-graph-key-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ex-graph-key-dot {
+  display: inline-block;
+  width: .625rem;
+  height: .625rem;
+  margin-right: .5rem;
+  border-radius: 50%;
+
+  .ex-graph-key.empty & {
+    background-color: $gray-200;
+  }
+
+  .ex-graph-key.fill & {
+    background-color: $primary;
+  }
+}

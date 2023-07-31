@@ -1,0 +1,18 @@
+.ex-patient-header {
+  padding-top: .25rem; // offset top of card padding
+  padding-bottom: 1.5rem;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #E3EBEF;
+}
+
+.ex-patient-surgery {
+  font-size: 1.375rem;
+}
+
+.ex-patient-surgery-col:not(:last-child) {
+  border-right: 1px solid #DADADA;
+}
+
+.ex-patient-surgery-info {
+  color: $primary;
+}

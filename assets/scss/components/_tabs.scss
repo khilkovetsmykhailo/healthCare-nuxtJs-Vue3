@@ -1,0 +1,44 @@
+.ex-button-tabs {
+
+  .nav-item {
+    color: $gray-600;
+    background-color: $gray-100;
+    margin-right: $spacer;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    .nav-link {
+      padding: .25rem 1rem;
+    }
+  }
+}
+
+.ex-tabs {
+
+  .nav-tabs {
+
+    .nav-item {
+      border-left: 0;
+      border-top: 0;
+      border-right: 0;
+      border-bottom: 0;
+
+      .nav-link {
+        border-left: 0;
+        border-top: 0;
+        border-right: 0;
+        border-bottom: 3px solid transparent;
+        color: $text-muted;
+
+        &.active {
+          border-color: $warning;
+          color: $body-color;
+        }
+      }
+    }
+
+  }
+
+}

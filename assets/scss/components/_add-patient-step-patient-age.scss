@@ -1,0 +1,18 @@
+.ex-new-user-age-input {
+  display: block;
+  width: 24rem;
+  margin: 0 auto 1.125rem;
+  padding: .75rem 0;
+  border: none;
+  border-bottom: 5px solid $primary;
+  background: none;
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+
+  + label {
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+}

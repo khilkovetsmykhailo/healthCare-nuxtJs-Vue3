@@ -1,0 +1,44 @@
+{
+  "keywords": [
+    "node",
+    "koa",
+    "nuxt",
+    "vue"
+  ],
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "standard-1x"
+    }
+  },
+  "env": {
+    "HOST": {
+      "required": true,
+      "value": "0.0.0.0"
+    },
+    "API_URL": {
+      "required": true
+    },
+    "AUTH_CALLBACK_URL": {
+      "required": true
+    },
+    "AWS_COGNITO_CLIENT_ID": {
+      "required": true
+    },
+    "AWS_COGNITO_DOMAIN": {
+      "required": true
+    },
+    "AWS_COGNITO_REGION": {
+      "required": true
+    },
+    "AWS_COGNITO_USER_POOL_ID": {
+      "required": true
+    },
+    "APP_LINK_IOS": {
+      "required": true
+    },
+    "APP_LINK_ANDROID": {
+      "required": true
+    }
+  }
+}
